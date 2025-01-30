@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    color: white;
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    margin: 10px 45px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid black;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 90px;
+    /* text-align: center; */
+    border-radius:3px;
+    border: none;
+    background-color:rgb(216, 248, 245) ;
+}
+.search-input{
+    width: 1400px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(216, 248, 245);
+}
+.login{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 8px;
+}
+.login-text{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 2px 0px;
+    font-size: 23px;
+}
+.svg-login{
+    display: flex;
+    align-items: center;
+    padding: 2px 0px;
+
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: black;
+    font-size: 23px;
+}
+.cart-svg{
+    margin: 7px;
+}
+.seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    font-size: 23px;
+}
+.seller-img{
+    margin: 7px;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.body-1{
+    /* background-color: gray; */
+    background-color: rgb(218, 216, 216);
+}
+.heading{
+    width: 100%;
+    background-color: rgb(218, 216, 216);
+    /* background-color: gray; */
+    height: 204px;
+    padding-top: 8px;
+}
+.heading-alin{
+    border: 1px solid rgb(225, 222, 222);
+    padding-top: 40px;
+    margin-left: 40px;
+    height: 150px;
+    width: 94vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.heading-pic1{
+    margin: 2px 70px;   
+}
+.heading-pic1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.heading-pic2{
+margin: 2px 70px; 
+}
+.heading-pic2 a{
+    text-decoration: none;
+    color: rgb(233, 6, 6);
+    text-decoration-color: red;
+    font-size: 18px;
+}
+.heading-pic3{
+    margin: 2px 70px;
+}
+.heading-pic4{
+    margin: 2px 70px;
+}
+.heading-pic5{
+    margin: 2px 70px;
+}
+heading-pic6{
+    margin: 2px 70px;
+}
+.brand{
+    padding-top: 40px;
+    margin-left: 35px;
+}
+.brand-head{
+    display: flex;
+}
+.gray{
+    background-color: rgb(218, 216, 216);
+    height: 100%;
+}
+.container{
+    /* border: 2px solid black; */
+    height: 235px;
+    width: 98%;
+    padding-top:10px 10px;
+    margin: 10px 10px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.midle1{
+    height: 193px;
+    width: 175px;
+    margin-left: 22px;
+    margin-top: 10px;
+    padding: 10px;
+     padding-top: 10px;
+    padding-left: 2px;
+     border: 0.1px solid rgb(180, 170, 170);
+    border-radius: 10px; 
+
+}
+.midle1 a{
+    margin-left: 6px;
+}
+.direction-pic4-text{
+    text-decoration:none;
+    width: 160px;
+    color: rgb(18, 16, 16);
+    text-decoration-color: black;
+    margin-right: 1px;
+    margin-bottom: 1px;
+
+}
+.direction-pic4-text-2{
+    color: rgb(9, 8, 8);
+    text-decoration: #f3f3f3;
+}
+.container-midle-head{
+    background-color: white;
+    margin-left: 15px;
+}
+.midle{
+    height: 193px;
+    width: 165px;
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-right: 4px;
+    padding: 10px;
+    border: 0.1px solid rgb(171, 169,169);
+    border-radius: 10px;
+  
+
+}
+.midle1:hover{
+    background-color: rgb(245, 192, 224);
+
+}
+.midle:hover{
+    background-color: rgb(155, 234, 224);
+}
+.container-midle{
+    height: 235px;
+    width: 98%;
+    padding-top:10px 10px;
+    margin: 10px 10px;
+    background-color: white;
+    display: flex;
+} 
+.full-pic{
+
+    padding: 5px;
+    margin-top: 29px;
+    margin-left: 10px;
+    width: 100%;
+}
+.full-pic img{
+    width: 98%;
+    margin-right: 15px;
+    border-radius: 5px;
+    
+}
+.small-pics{
+    height: 220px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 8px;
+}
+.pics{
+    height: 206px ;
+    width: 486px;
+    margin: 4px;
+    border-radius: 5px;
+    
+}
+.pics img{
+    height: 206px ;
+    width: 486px;
+    border-radius: 5px;
+}
+.pices-pic{
+    height: 600px;
+    display: flex;
+    width: 98%;
+    margin-left: 17px;
+}
+.pices{
+    height: 600px;
+    width: 100%;
+    margin: 8px;
+    display: flex;
+}
+.pic{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    margin: 13px;
+
+}
+.small-photo{
+    height: 220px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 8px;
+    /* border: 1px solid rgb(15, 15, 15); */
+}
+.photo1{
+    height: 206px ;
+    width: 486px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+.photo1 img{
+    height: 206px ;
+    width: 487px;
+    margin: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+footer{
+    background-color: black;
+    max-width: 100%;
+    height: 500px;
+
+    padding: 24px;
+    color: white;
+}
+.footer1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+   margin:5px;
+    color: white;
+   
+
+}
+/* .footer-width{
+    width: 50%;
+} */
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.item1{
+    margin-right: 5px;
+    width: 100px;
+}
+.item2{
+    width: 50px;
+    margin-left: 0px;
+
+    
+}
+.footer1 a{
+    font-size: 14px;
+    color: white;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.about{
+    margin: 6px;
+    
+}
+.about a{
+    font-size: 15px;
+    color: rgb(106, 103, 103);
+}
+.footer-item{
+    color: white;
+}
+.line{
+    color: white;
+    border: 1px solid white;
+    display: flex;
+}
+
+
+
